@@ -1,5 +1,4 @@
-[![GitHub](https://img.shields.io/github/license/GamesLT/giveaways.svg)](https://github.com/GamesLT/giveaways/blob/master/LICENSE) 
-[![GitHub release](https://img.shields.io/github/release/GamesLT/giveaways.svg)](https://github.com/GamesLT/giveaways/releases) [![ImpressCMS version](https://img.shields.io/badge/ImpressCMS-2.0%20alpha%20%3F-yellow.svg)](https://github.com/ImpressCMS/impresscms/)
+[![GitHub](https://img.shields.io/github/license/GamesLT/giveaways.svg)](https://github.com/GamesLT/giveaways/blob/master/LICENSE) [![ImpressCMS version](https://img.shields.io/badge/ImpressCMS-2.0%20alpha%20%3F-yellow.svg)](https://github.com/ImpressCMS/impresscms/)
 
 # Giveaways
 
