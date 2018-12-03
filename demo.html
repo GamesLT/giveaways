@@ -1,0 +1,19 @@
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="http://stuff.gameslt.mekdrop.name/Tools/api/modules/giveaways/js/jQuery.giveaway.js"
+        data-linkedselector="#code_frame"
+        onerror="jQuery(jQuery(this).data('linkedselector')).html('Šiuo metu nevyksta joks kodų dalinimas');"
+        onload="jQuery(jQuery(this).data('linkedselector')).giveAway('http://stuff.gameslt.mekdrop.name/Tools/api/', 1);"></script>
+
+<div id="code_frame">
+    <p id="code_frame_p" style="display: none;">
+        Palaukite. Kraunama...
+        <script type="text/javascript">
+            document.getElementById('code_frame_p').style.display = 'block';
+        </script>
+    </p>
+    <noscript>
+        <p>Kodų dalintojui būtina įjungti JavaScript palaikymą naršyklėje.</p>
+    </noscript>
+</div>

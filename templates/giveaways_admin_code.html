@@ -1,0 +1,15 @@
+<{if $content_table}>
+<{$content_table}>
+<form method="post" enctype="multipart/form-data" action="">
+    Codes to import:
+    <p><textarea name="codes" rows="40" cols="80"></textarea></p>
+    <p>
+        <button type="submit">Import</button>
+    </p>
+    <input type="hidden" name="op" value="import"/>
+    <input type="hidden" name="type_id" value="<{$smarty.request.type_id}>"/>
+</form>
+<{/if}>
+<{if $additem}>
+<{includeq file='db:system_common_form.html' form=$additem}>
+<{/if}>
